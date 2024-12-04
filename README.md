@@ -50,11 +50,18 @@ NIM : 312310588
 5. Metode ini public float calcWeight()menghitung bobot untuk detail pesanan dengan memanggil objek getShippingWeight()terkait Itemdan mengalikannya dengan quantity.
 6. Metode ini public float calcTax()menghitung pajak untuk detail pesanan dengan memanggil objek getTax()terkait Item.
 7. Metode public int getQuantity(), public String getTaxStatus(), dan public Item getItem()menyediakan akses ke properti terkait.
+   
 # Class Payment
 ![code 5](https://github.com/user-attachments/assets/d3e37d29-719b-4fa3-b258-cf5e98cbcff0)
+# Penjesannya
+1. Kelas tersebut Paymentmemiliki protected float amount;deklarasi yang menjadikan amountproperti bersifat privat tetapi dapat diakses oleh subkelas.
+2. Konstruktor public Payment(float amount)menginisialisasi amountproperti ketika Paymentobjek baru dibuat.
+3. Metode ini public float getAmount()mengembalikan nilai properti amount.
 
 # Class Main
 ![code 6](https://github.com/user-attachments/assets/74a309ea-9ea0-44fd-81c6-64a691851128)
+# Penjelasannya
+
 
 # OUTPUT
 ![Screenshot 2024-12-05 001740](https://github.com/user-attachments/assets/a4615676-05d5-4aaf-8bcb-16377255ed40)
