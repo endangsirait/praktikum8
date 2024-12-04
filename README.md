@@ -42,7 +42,14 @@ NIM : 312310588
    
 # Class OrderDetail
 ![code 3](https://github.com/user-attachments/assets/1c2cb21b-8c5f-4b3b-b7ad-cd08aef8c505)
-
+# Penjelasannya
+1. Kelas tersebut memiliki variabel instan privat quantity, taxStatus, dan item.
+2. Konstruktor public OrderDetail(int quantity, String taxStatus, Item item)menginisialisasi properti ini ketika OrderDetailobjek baru dibuat.
+3. Metode ini public OrderDetail(int quantity, String taxStatus, Item item)menetapkan nilai properti quantity, taxStatus, dan item.
+4. Metode ini public float calcSubTotal()menghitung subtotal untuk detail pesanan dengan memanggil objek getPriceForQuantity()terkait Item.
+5. Metode ini public float calcWeight()menghitung bobot untuk detail pesanan dengan memanggil objek getShippingWeight()terkait Itemdan mengalikannya dengan quantity.
+6. Metode ini public float calcTax()menghitung pajak untuk detail pesanan dengan memanggil objek getTax()terkait Item.
+7. Metode public int getQuantity(), public String getTaxStatus(), dan public Item getItem()menyediakan akses ke properti terkait.
 # Class Payment
 ![code 5](https://github.com/user-attachments/assets/d3e37d29-719b-4fa3-b258-cf5e98cbcff0)
 
