@@ -10,7 +10,7 @@ NIM : 312310588
 # Class Customer
 ![code](https://github.com/user-attachments/assets/0014167f-ff52-499e-88e6-6e8cffccaf3a)
 # Penjelasan:
-1. Kelas Customerdidefinisikan dengan deklarasi private final String name;dan private final String address;, yang berarti properti namedan addressbersifat pribadi dan final (tidak dapat diubah setelah inisialisasi).
+1. Kelas Customer didefinisikan dengan deklarasi private final String name;dan private final String address;, yang berarti properti namedan addressbersifat pribadi dan final (tidak dapat diubah setelah inisialisasi).
 2. Konstruktor public Customer(String name, String address)menginisialisasi properti namedan addresssaat objek baru Customerdibuat.
 3. Metode ini public String getName()mengembalikan nameproperti objek Customer.
 4. Metode ini public String getAddress()mengembalikan addressproperti objek Customer
