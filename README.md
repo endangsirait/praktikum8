@@ -6,6 +6,7 @@ NIM : 312310588
 ![Screenshot 2024-12-04 173658](https://github.com/user-attachments/assets/ef96274e-3e97-43d7-be38-5ee442d06d80)
 
 # Buat code  java dari diagram class berikut :
+# INPUT
 # Class Customer
 ![code](https://github.com/user-attachments/assets/0014167f-ff52-499e-88e6-6e8cffccaf3a)
 
@@ -23,6 +24,10 @@ NIM : 312310588
 
 # Class Main
 ![code 6](https://github.com/user-attachments/assets/74a309ea-9ea0-44fd-81c6-64a691851128)
+
+# OUTPUT
+![Screenshot 2024-12-05 001740](https://github.com/user-attachments/assets/a4615676-05d5-4aaf-8bcb-16377255ed40)
+
 
 
 
