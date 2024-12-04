@@ -30,7 +30,16 @@ NIM : 312310588
 
 # Class Order
 ![code 2](https://github.com/user-attachments/assets/32c22f8e-6d0d-4c8d-8617-26d729632349)
-
+# Penjelasannya
+1. Kelas tersebut Ordermemiliki beberapa variabel instan privat: date, status, customer, dan orderDetails.
+2. Konstruktor public Order(String date, String status, Customer customer, OrderDetail[] orderDetails)menginisialisasi properti ini ketika Orderobjek baru dibuat.
+3. Metode ini public Order(String date, String status, Customer customer, OrderDetail[] orderDetails)menetapkan nilai properti date, status, customer, dan orderDetails.
+4. Metode ini public float calcSubTotal()menghitung subtotal pesanan dengan mengulangi orderDetailsarray dan memanggil calcSubTotal()metode pada setiap OrderDetailobjek.
+5. Metode ini public float calcTax()menghitung total pajak untuk pesanan dengan mengulangi orderDetailsarray dan memanggil calcTax()metode pada setiap OrderDetailobjek.
+6. Metode ini public float calcTotal()menghitung total biaya pesanan dengan menambahkan subtotal dan jumlah pajak.
+7. Metode ini public float calcTotalWeight()menghitung bobot total pesanan dengan mengulangi orderDetailsarray dan memanggil calcWeight()metode pada setiap OrderDetailobjek.
+8. Metode public String getDate(), public String getStatus(), public Customer getCustomer(), dan public OrderDetail[] getOrderDetails()menyediakan akses ke properti terkait.
+   
 # Class OrderDetail
 ![code 3](https://github.com/user-attachments/assets/1c2cb21b-8c5f-4b3b-b7ad-cd08aef8c505)
 
