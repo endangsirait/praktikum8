@@ -61,7 +61,13 @@ NIM : 312310588
 # Class Main
 ![code 6](https://github.com/user-attachments/assets/74a309ea-9ea0-44fd-81c6-64a691851128)
 # Penjelasannya
-
+1. Dua Itemobjek dibuat - satu untuk "Keyboard" dan satu untuk "Mouse".
+2. Dua OrderDetailobjek dibuat - satu untuk item "Kena Pajak" (Keyboard) dan satu untuk item "Kena Pajak" lainnya (Mouse).
+3. Suatu Customerobjek dibuat dengan nama "Endang Medan".
+4. Suatu Orderobjek dibuat dengan tanggal "2024-12-07", status "Sedang diproses", pelanggan, dan kedua OrderDetailobjek tersebut.
+5. Nama pelanggan, tanggal pesanan, dan status pesanan dicetak ke konsol.
+6. Suatu putaran mengulangi rincian pesanan, mencetak deskripsi item, kuantitas, harga per item, dan subtotal untuk masing-masing item.
+7. Subtotal pesanan, pajak, total, dan berat total dicetak ke konsol.
 
 # OUTPUT
 ![Screenshot 2024-12-05 001740](https://github.com/user-attachments/assets/a4615676-05d5-4aaf-8bcb-16377255ed40)
