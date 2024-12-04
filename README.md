@@ -19,13 +19,14 @@ NIM : 312310588
 # Class Item
 ![code 4](https://github.com/user-attachments/assets/04687d6c-3612-4672-bf80-f7f3becef5e1)
 # Penjelasannya
-1 Kelas tersebut Itemmemiliki beberapa variabel instan privat: shippingWeight, description, price, dan taxRate.
-2. Konstruktor public Item(String shippingWeight, String description, float price, float taxRate)menginisialisasi properti ini ketika Itemobjek baru dibuat.
-3. Metode ini public Item(String shippingWeight, String description, float price, float taxRate)menetapkan nilai properti shippingWeight, description, price, dan taxRate.
-4. Metode ini public float getPriceForQuantity(int quantity)menghitung harga total untuk jumlah barang tertentu dengan cara mengalikan pricedengan quantity.
-5. Metode ini public float getTax()menghitung jumlah pajak untuk barang berdasarkan pricedan taxRate.
-6. Metode ini public boolean inStock()mengembalikan boolean yang menunjukkan apakah item tersedia atau tidak.
-7. Metode public String getShippingWeight()dan public String getDescription()menyediakan akses ke properti shippingWeightdan description, masing-masing.
+1. Kelas tersebut Itemmemiliki beberapa variabel instan privat: shippingWeight,       description, price, dan taxRate.
+   
+2. Konstruktor public Item(String shippingWeight, String description, float price,    float taxRate)menginisialisasi properti ini ketika Itemobjek baru dibuat.
+4. Metode ini public Item(String shippingWeight, String description, float price,     float taxRate)menetapkan nilai properti shippingWeight, description, price, dan     taxRate.
+5. Metode ini public float getPriceForQuantity(int quantity)menghitung harga total untuk jumlah barang tertentu dengan cara mengalikan pricedengan quantity.
+6. Metode ini public float getTax()menghitung jumlah pajak untuk barang berdasarkan pricedan taxRate.
+7. Metode ini public boolean inStock()mengembalikan boolean yang menunjukkan apakah item tersedia atau tidak.
+8. Metode public String getShippingWeight()dan public String getDescription()menyediakan akses ke properti shippingWeightdan description, masing-masing.
 
 # Class Order
 ![code 2](https://github.com/user-attachments/assets/32c22f8e-6d0d-4c8d-8617-26d729632349)
